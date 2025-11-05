@@ -1,0 +1,252 @@
+[
+  {
+    "patient_name": "John Smith",
+    "discharge_date": "2024-01-15",
+    "primary_diagnosis": "Chronic Kidney Disease Stage 3",
+    "medications": ["Lisinopril 10mg daily", "Furosemide 20mg twice daily"],
+    "dietary_restrictions": "Low sodium (2g/day), fluid restriction (1.5L/day)",
+    "follow_up": "Nephrology clinic in 2 weeks",
+    "warning_signs": "Swelling, shortness of breath, decreased urine output",
+    "discharge_instructions": "Monitor blood pressure daily, weigh yourself daily"
+  },
+  {
+    "patient_name": "Alice Johnson",
+    "discharge_date": "2024-02-10",
+    "primary_diagnosis": "Acute Kidney Injury",
+    "medications": ["Prednisone 40mg daily"],
+    "dietary_restrictions": "Low protein, low potassium",
+    "follow_up": "Follow-up in 1 week",
+    "warning_signs": "Fatigue, nausea, decreased urine output",
+    "discharge_instructions": "Avoid NSAIDs, monitor urine color"
+  },
+  {
+    "patient_name": "Bob Martinez",
+    "discharge_date": "2024-03-05",
+    "primary_diagnosis": "Nephrotic Syndrome",
+    "medications": ["Lasix 40mg daily", "Lisinopril 5mg daily"],
+    "dietary_restrictions": "Low salt, low cholesterol",
+    "follow_up": "Nephrology in 3 weeks",
+    "warning_signs": "Swelling, foamy urine, weight gain",
+    "discharge_instructions": "Weigh daily, limit fluids"
+  },
+  {
+    "patient_name": "Carol White",
+    "discharge_date": "2024-01-20",
+    "primary_diagnosis": "Diabetic Nephropathy",
+    "medications": ["Metformin 500mg twice daily", "Lisinopril 10mg daily"],
+    "dietary_restrictions": "Low sugar, low sodium",
+    "follow_up": "Endocrinology and Nephrology in 2 weeks",
+    "warning_signs": "High blood sugar, swelling, fatigue",
+    "discharge_instructions": "Monitor blood sugar, check feet daily"
+  },
+  {
+    "patient_name": "David Brown",
+    "discharge_date": "2024-02-25",
+    "primary_diagnosis": "Hypertensive Nephropathy",
+    "medications": ["Amlodipine 5mg daily", "Lisinopril 10mg daily"],
+    "dietary_restrictions": "Low sodium, low fat",
+    "follow_up": "Nephrology in 1 week",
+    "warning_signs": "Headache, chest pain, swelling",
+    "discharge_instructions": "Monitor BP daily, avoid salt"
+  },
+  {
+    "patient_name": "Eva Green",
+    "discharge_date": "2024-03-10",
+    "primary_diagnosis": "Polycystic Kidney Disease",
+    "medications": ["Tolvaptan 45mg twice daily"],
+    "dietary_restrictions": "Low sodium, adequate hydration",
+    "follow_up": "Genetics and Nephrology in 4 weeks",
+    "warning_signs": "Flank pain, blood in urine, high BP",
+    "discharge_instructions": "Drink 3L water daily, avoid contact sports"
+  },
+  {
+    "patient_name": "Frank Hill",
+    "discharge_date": "2024-01-30",
+    "primary_diagnosis": "IgA Nephropathy",
+    "medications": ["Prednisone 30mg daily", "Lisinopril 10mg daily"],
+    "dietary_restrictions": "Low salt, moderate protein",
+    "follow_up": "Nephrology in 2 weeks",
+    "warning_signs": "Blood in urine, swelling, sore throat",
+    "discharge_instructions": "Monitor urine color, avoid infections"
+  },
+  {
+    "patient_name": "Grace Lee",
+    "discharge_date": "2024-02-15",
+    "primary_diagnosis": "Lupus Nephritis",
+    "medications": ["Prednisone 40mg daily", "Mycophenolate 500mg twice daily"],
+    "dietary_restrictions": "Low salt, low fat",
+    "follow_up": "Rheumatology and Nephrology in 3 weeks",
+    "warning_signs": "Joint pain, rash, swelling",
+    "discharge_instructions": "Avoid sun exposure, monitor weight"
+  },
+  {
+    "patient_name": "Henry Adams",
+    "discharge_date": "2024-03-12",
+    "primary_diagnosis": "Membranous Nephropathy",
+    "medications": ["Cyclosporine 100mg twice daily", "Prednisone 20mg daily"],
+    "dietary_restrictions": "Low salt, low cholesterol",
+    "follow_up": "Nephrology in 4 weeks",
+    "warning_signs": "Swelling, weight gain, fatigue",
+    "discharge_instructions": "Monitor BP, weigh daily"
+  },
+  {
+    "patient_name": "Iris Nelson",
+    "discharge_date": "2024-01-18",
+    "primary_diagnosis": "ANCA Vasculitis",
+    "medications": ["Prednisone 60mg daily", "Rituximab infusion"],
+    "dietary_restrictions": "Low salt, low sugar",
+    "follow_up": "Nephrology and Rheumatology in 2 weeks",
+    "warning_signs": "Blood in urine, sinusitis, cough",
+    "discharge_instructions": "Report infections early, monitor urine"
+  },
+  {
+    "patient_name": "Jack Turner",
+    "discharge_date": "2024-02-20",
+    "primary_diagnosis": "FSGS",
+    "medications": ["Prednisone 40mg daily", "Lisinopril 10mg daily"],
+    "dietary_restrictions": "Low salt, moderate protein",
+    "follow_up": "Nephrology in 3 weeks",
+    "warning_signs": "Swelling, foamy urine, weight gain",
+    "discharge_instructions": "Monitor weight, limit salt"
+  },
+  {
+    "patient_name": "Karen Hall",
+    "discharge_date": "2024-03-08",
+    "primary_diagnosis": "Alport Syndrome",
+    "medications": ["Lisinopril 10mg daily"],
+    "dietary_restrictions": "Low salt, low fat",
+    "follow_up": "Genetics and Nephrology in 4 weeks",
+    "warning_signs": "Hearing loss, blood in urine, swelling",
+    "discharge_instructions": "Avoid loud noise, monitor BP"
+  },
+  {
+    "patient_name": "Liam Scott",
+    "discharge_date": "2024-01-22",
+    "primary_diagnosis": "Renal Artery Stenosis",
+    "medications": ["Lisinopril 10mg daily", "Atorvastatin 20mg daily"],
+    "dietary_restrictions": "Low salt, low cholesterol",
+    "follow_up": "Nephrology in 2 weeks",
+    "warning_signs": "High BP, fatigue, chest pain",
+    "discharge_instructions": "Monitor BP daily, avoid salt"
+  },
+  {
+    "patient_name": "Mona King",
+    "discharge_date": "2024-02-18",
+    "primary_diagnosis": "Oxalate Nephropathy",
+    "medications": ["Potassium citrate 10mEq twice daily"],
+    "dietary_restrictions": "Low oxalate, high calcium",
+    "follow_up": "Nephrology in 3 weeks",
+    "warning_signs": "Kidney stones, flank pain, blood in urine",
+    "discharge_instructions": "Drink 3L water daily, avoid spinach"
+  },
+  {
+    "patient_name": "Nick Young",
+    "discharge_date": "2024-03-15",
+    "primary_diagnosis": "Minimal Change Disease",
+    "medications": ["Prednisone 60mg daily"],
+    "dietary_restrictions": "Low salt, moderate protein",
+    "follow_up": "Nephrology in 2 weeks",
+    "warning_signs": "Swelling, weight gain, foamy urine",
+    "discharge_instructions": "Weigh daily, limit fluids"
+  },
+  {
+    "patient_name": "Olivia Perez",
+    "discharge_date": "2024-01-25",
+    "primary_diagnosis": "Amyloidosis",
+    "medications": ["Bortezomib injection", "Dexamethasone 20mg weekly"],
+    "dietary_restrictions": "Low salt, high protein",
+    "follow_up": "Nephrology and Hematology in 3 weeks",
+    "warning_signs": "Swelling, fatigue, numbness",
+    "discharge_instructions": "Report infections, monitor weight"
+  },
+  {
+    "patient_name": "Paul Roberts",
+    "discharge_date": "2024-02-12",
+    "primary_diagnosis": "Thrombotic Microangiopathy",
+    "medications": ["Eculizumab infusion"],
+    "dietary_restrictions": "Low salt, low fat",
+    "follow_up": "Nephrology in 1 week",
+    "warning_signs": "Fatigue, bruising, dark urine",
+    "discharge_instructions": "Report fever, monitor urine"
+  },
+  {
+    "patient_name": "Quinn Taylor",
+    "discharge_date": "2024-03-20",
+    "primary_diagnosis": "Crescentic GN",
+    "medications": ["Prednisone 60mg daily", "Cyclophosphamide 100mg daily"],
+    "dietary_restrictions": "Low salt, low protein",
+    "follow_up": "Nephrology in 2 weeks",
+    "warning_signs": "Blood in urine, swelling, fatigue",
+    "discharge_instructions": "Monitor urine, avoid infections"
+  },
+  {
+    "patient_name": "Rita Evans",
+    "discharge_date": "2024-01-28",
+    "primary_diagnosis": "Diabetic Kidney Disease",
+    "medications": ["Insulin", "Lisinopril 10mg daily"],
+    "dietary_restrictions": "Low sugar, low salt",
+    "follow_up": "Endocrinology in 1 week",
+    "warning_signs": "High blood sugar, swelling, fatigue",
+    "discharge_instructions": "Monitor sugar, check feet"
+  },
+  {
+    "patient_name": "Steve Collins",
+    "discharge_date": "2024-02-22",
+    "primary_diagnosis": "Hypertensive Kidney Disease",
+    "medications": ["Amlodipine 5mg daily", "Lisinopril 10mg daily"],
+    "dietary_restrictions": "Low salt, low fat",
+    "follow_up": "Nephrology in 2 weeks",
+    "warning_signs": "Headache, chest pain, swelling",
+    "discharge_instructions": "Monitor BP, avoid salt"
+  },
+  {
+    "patient_name": "Tina Rivera",
+    "discharge_date": "2024-03-18",
+    "primary_diagnosis": "Chronic Glomerulonephritis",
+    "medications": ["Lisinopril 10mg daily", "Furosemide 40mg daily"],
+    "dietary_restrictions": "Low salt, low protein",
+    "follow_up": "Nephrology in 3 weeks",
+    "warning_signs": "Blood in urine, swelling, fatigue",
+    "discharge_instructions": "Monitor urine, limit salt"
+  },
+  {
+    "patient_name": "Uma Patel",
+    "discharge_date": "2024-01-30",
+    "primary_diagnosis": "SLE Nephritis",
+    "medications": ["Prednisone 40mg daily", "Mycophenolate 500mg twice daily"],
+    "dietary_restrictions": "Low salt, low fat",
+    "follow_up": "Rheumatology in 2 weeks",
+    "warning_signs": "Joint pain, rash, swelling",
+    "discharge_instructions": "Avoid sun, monitor weight"
+  },
+  {
+    "patient_name": "Victor Morris",
+    "discharge_date": "2024-02-28",
+    "primary_diagnosis": "ANCA GN",
+    "medications": ["Prednisone 60mg daily", "Rituximab infusion"],
+    "dietary_restrictions": "Low salt, low sugar",
+    "follow_up": "Nephrology in 1 week",
+    "warning_signs": "Blood in urine, cough, sinusitis",
+    "discharge_instructions": "Report infections, monitor urine"
+  },
+  {
+    "patient_name": "Wendy Cooper",
+    "discharge_date": "2024-03-25",
+    "primary_diagnosis": "Membranoproliferative GN",
+    "medications": ["Prednisone 30mg daily", "Cyclosporine 100mg twice daily"],
+    "dietary_restrictions": "Low salt, low cholesterol",
+    "follow_up": "Nephrology in 4 weeks",
+    "warning_signs": "Swelling, fatigue, foamy urine",
+    "discharge_instructions": "Monitor BP, weigh daily"
+  },
+  {
+    "patient_name": "Xavier Brooks",
+    "discharge_date": "2024-01-12",
+    "primary_diagnosis": "IgA Vasculitis",
+    "medications": ["Prednisone 40mg daily", "Lisinopril 10mg daily"],
+    "dietary_restrictions": "Low salt, moderate protein",
+    "follow_up": "Nephrology in 2 weeks",
+    "warning_signs": "Rash, blood in urine, joint pain",
+    "discharge_instructions": "Monitor urine, avoid infections"
+  }
+]
