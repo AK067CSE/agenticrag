@@ -1,0 +1,202 @@
+2025-11-05 21:17:03 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 21:17:03 - MedicalAssistant - INFO - Medical Assistant Logging System Initialized
+2025-11-05 21:17:03 - MedicalAssistant - INFO - Log file: C:\Users\abhik\Downloads\genaiagents\post_discharge_ai_assistant\fresh_system\logs\medical_assistant_20251105_211703.log
+2025-11-05 21:17:03 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 21:17:03 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Multi-Agent Orchestrator
+2025-11-05 21:17:03 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Receptionist Agent
+2025-11-05 21:17:05 - MedicalAssistant - INFO - ⚙️ SYSTEM: Patient database loaded with 25 records
+2025-11-05 21:17:05 - MedicalAssistant - INFO - [ReceptionistAgent] ACTION: Initialized
+2025-11-05 21:17:05 - MedicalAssistant - DEBUG - [ReceptionistAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile"
+}
+2025-11-05 21:17:05 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Clinical AI Agent
+2025-11-05 21:17:13 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Multi-Agent Orchestrator
+2025-11-05 21:17:13 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Receptionist Agent
+2025-11-05 21:17:15 - MedicalAssistant - INFO - ⚙️ SYSTEM: Patient database loaded with 25 records
+2025-11-05 21:17:15 - MedicalAssistant - INFO - [ReceptionistAgent] ACTION: Initialized
+2025-11-05 21:17:15 - MedicalAssistant - DEBUG - [ReceptionistAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile"
+}
+2025-11-05 21:17:15 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Clinical AI Agent
+2025-11-05 21:17:17 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Multi-Agent Orchestrator
+2025-11-05 21:17:17 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Receptionist Agent
+2025-11-05 21:17:18 - MedicalAssistant - INFO - ⚙️ SYSTEM: Patient database loaded with 25 records
+2025-11-05 21:17:18 - MedicalAssistant - INFO - [ReceptionistAgent] ACTION: Initialized
+2025-11-05 21:17:18 - MedicalAssistant - DEBUG - [ReceptionistAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile"
+}
+2025-11-05 21:17:18 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Clinical AI Agent
+2025-11-05 21:17:23 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 21:17:23 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 21:17:24 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 21:17:25 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 21:17:25 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 21:17:25 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: Initialized
+2025-11-05 21:17:25 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "rag_enabled": true,
+  "web_search_enabled": true
+}
+2025-11-05 21:17:25 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 21:17:25 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 21:17:25 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 21:17:25 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: Initialized
+2025-11-05 21:17:25 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "rag_enabled": true,
+  "web_search_enabled": true
+}
+2025-11-05 21:17:25 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 21:17:27 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 21:17:27 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 21:17:27 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: Initialized
+2025-11-05 21:17:27 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "rag_enabled": true,
+  "web_search_enabled": true
+}
+2025-11-05 21:17:27 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 21:17:28 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 21:17:28 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 21:17:28 - MedicalAssistant - INFO - ⚙️ SYSTEM: Multi-Agent Orchestrator initialized
+2025-11-05 21:17:28 - MedicalAssistant - DEBUG -    Available agents: ['receptionist', 'clinical', 'web_search']
+2025-11-05 21:17:28 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 21:17:28 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 21:17:28 - MedicalAssistant - INFO - ⚙️ SYSTEM: Multi-Agent Orchestrator initialized
+2025-11-05 21:17:28 - MedicalAssistant - DEBUG -    Available agents: ['receptionist', 'clinical', 'web_search']
+2025-11-05 21:17:28 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 21:17:28 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 21:17:28 - MedicalAssistant - INFO - ⚙️ SYSTEM: Multi-Agent Orchestrator initialized
+2025-11-05 21:17:28 - MedicalAssistant - DEBUG -    Available agents: ['receptionist', 'clinical', 'web_search']
+2025-11-05 21:17:42 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 21:17:42 - MedicalAssistant - INFO - 🚀 NEW SESSION STARTED: session_1813184798608
+2025-11-05 21:17:42 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 21:17:42 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: Hello! 👋 I'm your Post-Discharge Care Assistant.
+
+I'm here to help you with your recovery after your hospital discharge.
+
+**What's your name?**...
+2025-11-05 21:17:48 - MedicalAssistant - INFO - USER INPUT: langchain
+2025-11-05 21:17:48 - MedicalAssistant - INFO - USER INPUT: langchain
+2025-11-05 21:17:49 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: Hello! I'm your post-discharge care assistant. What's your name?...
+2025-11-05 21:18:00 - MedicalAssistant - INFO - USER INPUT: john smith
+2025-11-05 21:18:00 - MedicalAssistant - INFO - USER INPUT: john smith
+2025-11-05 21:18:00 - MedicalAssistant - INFO - 🔧 TOOL CALL: retrieve_patient_info
+2025-11-05 21:18:00 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 21:18:00 - MedicalAssistant - INFO - 🔧 TOOL CALL: get_patient_by_name
+2025-11-05 21:18:00 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 21:18:00 - MedicalAssistant - INFO - 🔧 TOOL CALL: get_patient_by_name
+2025-11-05 21:18:00 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 21:18:00 - MedicalAssistant - DEBUG -    Result: {
+  "status": "success",
+  "patient_found": true
+}
+2025-11-05 21:18:00 - MedicalAssistant - INFO - 🔧 TOOL CALL: retrieve_patient_info
+2025-11-05 21:18:00 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 21:18:00 - MedicalAssistant - DEBUG -    Result: {
+  "status": "success",
+  "patient_found": true
+}
+2025-11-05 21:18:00 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: Hi John, I've reviewed your discharge report from January 15th, which noted your primary diagnosis of Chronic Kidney Disease Stage 3. How are you feeling today? I'd like to discuss your care and any q...
+2025-11-05 21:18:06 - MedicalAssistant - INFO - USER INPUT: langchain
+2025-11-05 21:18:06 - MedicalAssistant - INFO - USER INPUT: langchain
+2025-11-05 21:18:06 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: Hi John, are you following your medication schedule, specifically taking Lisinopril 10mg daily and Furosemide 20mg twice daily as prescribed?...
+2025-11-05 21:18:27 - MedicalAssistant - INFO - USER INPUT: langchain
+2025-11-05 21:18:27 - MedicalAssistant - INFO - USER INPUT: langchain
+2025-11-05 21:18:28 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: It seems like there was a miscommunication, John. I'll get back on track. Are you having any issues with your dietary restrictions, such as following the low sodium and fluid restriction guidelines?...
+2025-11-05 21:18:42 - MedicalAssistant - INFO - USER INPUT: kidney
+2025-11-05 21:18:42 - MedicalAssistant - INFO - USER INPUT: kidney
+2025-11-05 21:18:42 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ReceptionistAgent → ClinicalAgent
+2025-11-05 21:18:42 - MedicalAssistant - INFO -    Reason: Medical query detected: kidney...
+2025-11-05 21:18:42 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ReceptionistAgent → ClinicalAgent
+2025-11-05 21:18:42 - MedicalAssistant - INFO -    Reason: Medical query: kidney...
+2025-11-05 21:18:42 - MedicalAssistant - INFO - USER INPUT: kidney
+2025-11-05 21:18:42 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 21:18:42 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "kidney",
+  "has_patient_context": true
+}
+2025-11-05 21:18:44 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: GeneratingRAGAnswer
+2025-11-05 21:18:44 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "kidney"
+}
+2025-11-05 21:18:45 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: Direct answer to the question: 
+As a patient with Chronic Kidney Disease (CKD) Stage 3, it is essential to understand the structure and function of the kidneys to manage your condition effectively. Th...
+2025-11-05 21:19:28 - MedicalAssistant - INFO - USER INPUT: kidney
+2025-11-05 21:19:28 - MedicalAssistant - INFO - USER INPUT: kidney
+2025-11-05 21:19:28 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 21:19:28 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "kidney",
+  "has_patient_context": true
+}
+2025-11-05 21:19:28 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: GeneratingRAGAnswer
+2025-11-05 21:19:28 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "kidney"
+}
+2025-11-05 21:19:29 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: **Direct Answer:** As a patient with Chronic Kidney Disease Stage 3, it's essential to understand the importance of kidney function and how to manage your condition. The kidney plays a crucial role in...
+2025-11-05 21:19:42 - MedicalAssistant - INFO - USER INPUT: langchain
+2025-11-05 21:19:42 - MedicalAssistant - INFO - USER INPUT: langchain
+2025-11-05 21:19:42 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 21:19:42 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "langchain",
+  "has_patient_context": true
+}
+2025-11-05 21:19:42 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 21:19:42 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "langchain",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 21:19:42 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 21:19:42 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: langchain...
+2025-11-05 21:19:42 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 21:19:42 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "langchain"
+}
+2025-11-05 21:19:46 - MedicalAssistant - INFO - [WebSearchAgent] RESPONSE: LangChain is a tool that appears to be related to artificial intelligence (AI) and large language models. It has 6 main modules, including input/output management, external data access, and context me...
+2025-11-05 21:19:46 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: LangChain is a tool that appears to be related to artificial intelligence (AI) and large language models. It has 6 main modules, including input/output management, external data access, and context me...
+2025-11-05 21:20:49 - MedicalAssistant - INFO - USER INPUT: maternity rate
+2025-11-05 21:20:49 - MedicalAssistant - INFO - USER INPUT: maternity rate
+2025-11-05 21:20:49 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 21:20:49 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "maternity rate",
+  "has_patient_context": true
+}
+2025-11-05 21:20:49 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 21:20:49 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "maternity rate",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 21:20:49 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 21:20:49 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: maternity rate...
+2025-11-05 21:20:49 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 21:20:49 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "maternity rate"
+}
+2025-11-05 21:20:53 - MedicalAssistant - INFO - [WebSearchAgent] RESPONSE: The search results provided do not directly answer the question about the "maternity rate." However, they do discuss maternal mortality rates. According to the results, the global maternal mortality r...
+2025-11-05 21:20:54 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: The search results provided do not directly answer the question about the "maternity rate." However, they do discuss maternal mortality rates. According to the results, the global maternal mortality r...

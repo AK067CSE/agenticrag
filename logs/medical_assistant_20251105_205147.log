@@ -1,0 +1,378 @@
+2025-11-05 20:51:47 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 20:51:47 - MedicalAssistant - INFO - Medical Assistant Logging System Initialized
+2025-11-05 20:51:47 - MedicalAssistant - INFO - Log file: C:\Users\abhik\Downloads\genaiagents\post_discharge_ai_assistant\fresh_system\logs\medical_assistant_20251105_205147.log
+2025-11-05 20:51:47 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 20:51:47 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Multi-Agent Orchestrator
+2025-11-05 20:51:47 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Receptionist Agent
+2025-11-05 20:51:49 - MedicalAssistant - INFO - ⚙️ SYSTEM: Patient database loaded with 25 records
+2025-11-05 20:51:49 - MedicalAssistant - INFO - [ReceptionistAgent] ACTION: Initialized
+2025-11-05 20:51:49 - MedicalAssistant - DEBUG - [ReceptionistAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile"
+}
+2025-11-05 20:51:49 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Clinical AI Agent
+2025-11-05 20:52:07 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 20:52:09 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 20:52:09 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 20:52:09 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: Initialized
+2025-11-05 20:52:09 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "rag_enabled": true,
+  "web_search_enabled": true
+}
+2025-11-05 20:52:09 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 20:52:10 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 20:52:10 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 20:52:10 - MedicalAssistant - INFO - ⚙️ SYSTEM: Multi-Agent Orchestrator initialized
+2025-11-05 20:52:10 - MedicalAssistant - DEBUG -    Available agents: ['receptionist', 'clinical', 'web_search']
+2025-11-05 20:52:16 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Multi-Agent Orchestrator
+2025-11-05 20:52:16 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Receptionist Agent
+2025-11-05 20:52:18 - MedicalAssistant - INFO - ⚙️ SYSTEM: Patient database loaded with 25 records
+2025-11-05 20:52:18 - MedicalAssistant - INFO - [ReceptionistAgent] ACTION: Initialized
+2025-11-05 20:52:18 - MedicalAssistant - DEBUG - [ReceptionistAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile"
+}
+2025-11-05 20:52:18 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Clinical AI Agent
+2025-11-05 20:52:19 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 20:52:21 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 20:52:21 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 20:52:21 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: Initialized
+2025-11-05 20:52:21 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "rag_enabled": true,
+  "web_search_enabled": true
+}
+2025-11-05 20:52:21 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 20:52:22 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 20:52:22 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 20:52:22 - MedicalAssistant - INFO - ⚙️ SYSTEM: Multi-Agent Orchestrator initialized
+2025-11-05 20:52:22 - MedicalAssistant - DEBUG -    Available agents: ['receptionist', 'clinical', 'web_search']
+2025-11-05 20:52:29 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 20:52:29 - MedicalAssistant - INFO - 🚀 NEW SESSION STARTED: session_2850082428304
+2025-11-05 20:52:29 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 20:52:29 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: Hello! 👋 I'm your Post-Discharge Care Assistant.
+
+I'm here to help you with your recovery after your hospital discharge.
+
+**What's your name?**...
+2025-11-05 20:52:37 - MedicalAssistant - INFO - USER INPUT: john smith
+2025-11-05 20:52:37 - MedicalAssistant - INFO - USER INPUT: john smith
+2025-11-05 20:52:37 - MedicalAssistant - INFO - 🔧 TOOL CALL: retrieve_patient_info
+2025-11-05 20:52:37 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 20:52:37 - MedicalAssistant - INFO - 🔧 TOOL CALL: get_patient_by_name
+2025-11-05 20:52:37 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 20:52:37 - MedicalAssistant - INFO - 🔧 TOOL CALL: get_patient_by_name
+2025-11-05 20:52:37 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 20:52:37 - MedicalAssistant - DEBUG -    Result: {
+  "status": "success",
+  "patient_found": true
+}
+2025-11-05 20:52:37 - MedicalAssistant - INFO - 🔧 TOOL CALL: retrieve_patient_info
+2025-11-05 20:52:37 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 20:52:37 - MedicalAssistant - DEBUG -    Result: {
+  "status": "success",
+  "patient_found": true
+}
+2025-11-05 20:52:38 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: Hi John, I've reviewed your discharge report from January 15, 2024, and I see that you were discharged with a primary diagnosis of Chronic Kidney Disease Stage 3. How are you feeling today, and do you...
+2025-11-05 20:52:56 - MedicalAssistant - INFO - USER INPUT: kidney
+
+2025-11-05 20:52:56 - MedicalAssistant - INFO - USER INPUT: kidney
+
+2025-11-05 20:52:56 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ReceptionistAgent → ClinicalAgent
+2025-11-05 20:52:56 - MedicalAssistant - INFO -    Reason: Medical query detected: kidney
+...
+2025-11-05 20:52:56 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ReceptionistAgent → ClinicalAgent
+2025-11-05 20:52:56 - MedicalAssistant - INFO -    Reason: Medical query: kidney
+...
+2025-11-05 20:52:56 - MedicalAssistant - INFO - USER INPUT: kidney
+
+2025-11-05 20:52:56 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 20:52:56 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "kidney\n",
+  "has_patient_context": true
+}
+2025-11-05 20:52:57 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: GeneratingRAGAnswer
+2025-11-05 20:52:57 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "kidney\n"
+}
+2025-11-05 20:52:58 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: Direct answer to the question: It appears you're inquiring about the general topic of kidneys, possibly in relation to your condition, Chronic Kidney Disease Stage 3. 
+
+Supporting details from sources...
+2025-11-05 20:53:53 - MedicalAssistant - INFO - USER INPUT: brief me about  lancghain
+2025-11-05 20:53:53 - MedicalAssistant - INFO - USER INPUT: brief me about  lancghain
+2025-11-05 20:53:53 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 20:53:53 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "brief me about  lancghain",
+  "has_patient_context": true
+}
+2025-11-05 20:53:53 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 20:53:53 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "brief me about  lancghain",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 20:53:53 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 20:53:53 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: brief me about  lancghain...
+2025-11-05 20:53:53 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 20:53:53 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "brief me about  lancghain"
+}
+2025-11-05 20:53:53 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='brief me about  lancghain', Results=0
+2025-11-05 20:53:53 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='brief me about  lancghain', Results=5
+2025-11-05 20:53:53 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: SearchCompleted
+2025-11-05 20:53:53 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "query": "brief me about  lancghain",
+  "results_count": 5
+}
+2025-11-05 20:53:54 - MedicalAssistant - INFO - [WebSearchAgent] RESPONSE: Based on the search results, I couldn't find any relevant information about "lancghain". It's possible that the term is misspelled, not well-known, or not related to any medical topic.
+
+The search res...
+2025-11-05 20:53:54 - MedicalAssistant - ERROR - ❌ ERROR [AnswerEnhancement]: 'ClinicalAgent' object has no attribute 'model'
+2025-11-05 20:53:54 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: Based on the search results, I couldn't find any relevant information about "lancghain". It's possible that the term is misspelled, not well-known, or not related to any medical topic.
+
+The search res...
+2025-11-05 20:54:47 - MedicalAssistant - INFO - USER INPUT: lancghain
+2025-11-05 20:54:47 - MedicalAssistant - INFO - USER INPUT: lancghain
+2025-11-05 20:54:47 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 20:54:47 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "lancghain",
+  "has_patient_context": true
+}
+2025-11-05 20:54:47 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 20:54:47 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "lancghain",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 20:54:47 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 20:54:47 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: lancghain...
+2025-11-05 20:54:47 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 20:54:47 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "lancghain"
+}
+2025-11-05 20:54:47 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='lancghain', Results=0
+2025-11-05 20:54:47 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='lancghain', Results=5
+2025-11-05 20:54:47 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: SearchCompleted
+2025-11-05 20:54:47 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "query": "lancghain",
+  "results_count": 5
+}
+2025-11-05 20:54:48 - MedicalAssistant - INFO - [WebSearchAgent] RESPONSE: I couldn't find any relevant information related to "lancghain" in the provided search results. The search results appear to be about YouTube, a video-sharing platform, and do not mention "lancghain" ...
+2025-11-05 20:54:48 - MedicalAssistant - ERROR - ❌ ERROR [AnswerEnhancement]: 'ClinicalAgent' object has no attribute 'model'
+2025-11-05 20:54:48 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: I couldn't find any relevant information related to "lancghain" in the provided search results. The search results appear to be about YouTube, a video-sharing platform, and do not mention "lancghain" ...
+2025-11-05 20:55:15 - MedicalAssistant - INFO - USER INPUT: lancghain
+2025-11-05 20:55:15 - MedicalAssistant - INFO - USER INPUT: lancghain
+2025-11-05 20:55:15 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 20:55:15 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "lancghain",
+  "has_patient_context": true
+}
+2025-11-05 20:55:15 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 20:55:15 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "lancghain",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 20:55:15 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 20:55:15 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: lancghain...
+2025-11-05 20:55:15 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 20:55:15 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "lancghain"
+}
+2025-11-05 20:55:15 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='lancghain', Results=0
+2025-11-05 20:55:15 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='lancghain', Results=5
+2025-11-05 20:55:15 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: SearchCompleted
+2025-11-05 20:55:15 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "query": "lancghain",
+  "results_count": 5
+}
+2025-11-05 20:55:16 - MedicalAssistant - INFO - [WebSearchAgent] RESPONSE: I couldn't find any relevant medical information related to "lancghain" in the provided search results. The sources appear to be related to adult content and do not provide any medical information.
+
+I...
+2025-11-05 20:55:16 - MedicalAssistant - ERROR - ❌ ERROR [AnswerEnhancement]: 'ClinicalAgent' object has no attribute 'model'
+2025-11-05 20:55:16 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: I couldn't find any relevant medical information related to "lancghain" in the provided search results. The sources appear to be related to adult content and do not provide any medical information.
+
+I...
+2025-11-05 20:55:27 - MedicalAssistant - INFO - USER INPUT: cancer
+2025-11-05 20:55:27 - MedicalAssistant - INFO - USER INPUT: cancer
+2025-11-05 20:55:27 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 20:55:27 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "cancer",
+  "has_patient_context": true
+}
+2025-11-05 20:55:27 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: GeneratingRAGAnswer
+2025-11-05 20:55:27 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "cancer"
+}
+2025-11-05 20:55:29 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: **Direct Answer:** As a patient with Chronic Kidney Disease (CKD) Stage 3, it's essential to be aware of the potential increased risk of certain cancers, particularly those related to solid organs. Ac...
+2025-11-05 20:55:53 - MedicalAssistant - INFO - USER INPUT: medicines for diabetes
+2025-11-05 20:55:53 - MedicalAssistant - INFO - USER INPUT: medicines for diabetes
+2025-11-05 20:55:53 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 20:55:53 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "medicines for diabetes",
+  "has_patient_context": true
+}
+2025-11-05 20:55:53 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: GeneratingRAGAnswer
+2025-11-05 20:55:53 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "medicines for diabetes"
+}
+2025-11-05 20:55:55 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: **Direct Answer to the Question:**
+For patients with Chronic Kidney Disease (CKD) like John Smith, several medications can be used to manage diabetes. According to the Kidney Disease: Improving Global...
+2025-11-05 20:56:11 - MedicalAssistant - INFO - USER INPUT: lancghain
+2025-11-05 20:56:11 - MedicalAssistant - INFO - USER INPUT: lancghain
+2025-11-05 20:56:11 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 20:56:11 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "lancghain",
+  "has_patient_context": true
+}
+2025-11-05 20:56:11 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 20:56:11 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "lancghain",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 20:56:11 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 20:56:11 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: lancghain...
+2025-11-05 20:56:11 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 20:56:11 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "lancghain"
+}
+2025-11-05 20:56:11 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='lancghain', Results=0
+2025-11-05 20:56:11 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='lancghain', Results=5
+2025-11-05 20:56:11 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: SearchCompleted
+2025-11-05 20:56:11 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "query": "lancghain",
+  "results_count": 5
+}
+2025-11-05 20:56:12 - MedicalAssistant - INFO - [WebSearchAgent] RESPONSE: It appears that the search query "lancghain" may be related to a medical term or condition, but the provided search results do not contain any relevant information on this topic. The search results se...
+2025-11-05 20:56:12 - MedicalAssistant - ERROR - ❌ ERROR [AnswerEnhancement]: 'ClinicalAgent' object has no attribute 'model'
+2025-11-05 20:56:12 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: It appears that the search query "lancghain" may be related to a medical term or condition, but the provided search results do not contain any relevant information on this topic. The search results se...
+2025-11-05 20:56:29 - MedicalAssistant - INFO - USER INPUT: langchain
+2025-11-05 20:56:29 - MedicalAssistant - INFO - USER INPUT: langchain
+2025-11-05 20:56:29 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 20:56:29 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "langchain",
+  "has_patient_context": true
+}
+2025-11-05 20:56:29 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 20:56:29 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "langchain",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 20:56:29 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 20:56:29 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: langchain...
+2025-11-05 20:56:29 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 20:56:29 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "langchain"
+}
+2025-11-05 20:56:29 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='langchain', Results=0
+2025-11-05 20:56:30 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='langchain', Results=0
+2025-11-05 20:56:30 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: SearchCompleted
+2025-11-05 20:56:30 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "query": "langchain",
+  "results_count": 0
+}
+2025-11-05 20:56:34 - MedicalAssistant - INFO - USER INPUT: lancghain
+2025-11-05 20:56:34 - MedicalAssistant - INFO - USER INPUT: lancghain
+2025-11-05 20:56:34 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 20:56:34 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "lancghain",
+  "has_patient_context": true
+}
+2025-11-05 20:56:34 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 20:56:34 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "lancghain",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 20:56:34 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 20:56:34 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: lancghain...
+2025-11-05 20:56:34 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 20:56:34 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "lancghain"
+}
+2025-11-05 20:56:34 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='lancghain', Results=0
+2025-11-05 20:56:35 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='lancghain', Results=0
+2025-11-05 20:56:35 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: SearchCompleted
+2025-11-05 20:56:35 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "query": "lancghain",
+  "results_count": 0
+}
+2025-11-05 21:00:35 - MedicalAssistant - INFO - USER INPUT: langchain docs
+2025-11-05 21:00:35 - MedicalAssistant - INFO - USER INPUT: langchain docs
+2025-11-05 21:00:35 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 21:00:35 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "langchain docs",
+  "has_patient_context": true
+}
+2025-11-05 21:00:35 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 21:00:35 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "langchain docs",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 21:00:35 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 21:00:35 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: langchain docs...
+2025-11-05 21:00:35 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 21:00:35 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "langchain docs"
+}
+2025-11-05 21:00:35 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='langchain docs', Results=0
+2025-11-05 21:00:36 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='langchain docs', Results=0
+2025-11-05 21:00:36 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: SearchCompleted
+2025-11-05 21:00:36 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "query": "langchain docs",
+  "results_count": 0
+}
+2025-11-05 21:02:45 - MedicalAssistant - INFO - USER INPUT: kidney stones
+2025-11-05 21:02:45 - MedicalAssistant - INFO - USER INPUT: kidney stones
+2025-11-05 21:02:45 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 21:02:45 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "kidney stones",
+  "has_patient_context": true
+}
+2025-11-05 21:02:45 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: GeneratingRAGAnswer
+2025-11-05 21:02:45 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "kidney stones"
+}
+2025-11-05 21:02:46 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: **Direct Answer to the Question:**
+Kidney stones are a common condition that can be caused by various factors, including genetics, diet, and certain medical conditions. In the context of the provided ...
+2025-11-05 21:03:07 - MedicalAssistant - INFO - USER INPUT: medicines
+2025-11-05 21:03:07 - MedicalAssistant - INFO - USER INPUT: medicines
+2025-11-05 21:03:07 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 21:03:07 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "medicines",
+  "has_patient_context": true
+}
+2025-11-05 21:03:07 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: GeneratingRAGAnswer
+2025-11-05 21:03:07 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "medicines"
+}
+2025-11-05 21:03:08 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: **Direct Answer:** As a patient with Chronic Kidney Disease (CKD) Stage 3, it is essential to be cautious when taking over-the-counter (OTC) medicines, including herbal and nutritional supplements, as...
+2025-11-05 21:04:06 - MedicalAssistant - INFO - USER INPUT: "What's the latest research on SGLT2 inhibitors for kidney
+disease?"
+2025-11-05 21:04:06 - MedicalAssistant - INFO - USER INPUT: "What's the latest research on SGLT2 inhibitors for kidney
+disease?"
+2025-11-05 21:04:06 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 21:04:06 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "\"What's the latest research on SGLT2 inhibitors for kidney\ndisease?\"",
+  "has_patient_context": true
+}
+2025-11-05 21:04:06 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: GeneratingRAGAnswer
+2025-11-05 21:04:06 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "\"What's the latest research on SGLT2 inhibitors for kidney\ndisease?\""
+}
+2025-11-05 21:04:08 - MedicalAssistant - INFO - [ClinicalAgent] RESPONSE: **Direct Answer:** The latest research on SGLT2 inhibitors suggests that they have beneficial effects on cardiovascular and kidney outcomes in patients with type 2 diabetes and chronic kidney disease ...

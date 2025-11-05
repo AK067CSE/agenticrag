@@ -1,0 +1,83 @@
+2025-11-05 15:49:46 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 15:49:46 - MedicalAssistant - INFO - Medical Assistant Logging System Initialized
+2025-11-05 15:49:46 - MedicalAssistant - INFO - Log file: C:\Users\abhik\Downloads\genaiagents\post_discharge_ai_assistant\fresh_system\logs\medical_assistant_20251105_154946.log
+2025-11-05 15:49:46 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 15:49:46 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Multi-Agent Orchestrator
+2025-11-05 15:49:46 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Receptionist Agent
+2025-11-05 15:49:46 - MedicalAssistant - INFO - ⚙️ SYSTEM: Patient database loaded with 25 records
+2025-11-05 15:49:46 - MedicalAssistant - INFO - [ReceptionistAgent] ACTION: Initialized
+2025-11-05 15:49:46 - MedicalAssistant - DEBUG - [ReceptionistAgent] DETAILS: {
+  "model": "gemini-2.0-flash-thinking-exp-01-21"
+}
+2025-11-05 15:49:46 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Clinical AI Agent
+2025-11-05 15:49:46 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing RAG Engine with CHROMADB vector store
+2025-11-05 15:49:46 - MedicalAssistant - INFO - ⚙️ SYSTEM: Loading existing ChromaDB collection
+2025-11-05 15:49:49 - MedicalAssistant - INFO - ⚙️ SYSTEM: Vector store initialized successfully using CHROMADB
+2025-11-05 15:49:49 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 15:49:51 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 15:49:51 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 15:49:51 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: Initialized
+2025-11-05 15:49:51 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "model": "gemini-2.0-flash-thinking-exp-01-21",
+  "rag_enabled": true,
+  "web_search_enabled": true
+}
+2025-11-05 15:49:51 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 15:49:52 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 15:49:52 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 15:49:52 - MedicalAssistant - INFO - ⚙️ SYSTEM: Multi-Agent Orchestrator initialized
+2025-11-05 15:49:52 - MedicalAssistant - DEBUG -    Available agents: ['receptionist', 'clinical', 'web_search']
+2025-11-05 15:50:02 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 15:50:02 - MedicalAssistant - INFO - 🚀 NEW SESSION STARTED: session_2812462381920
+2025-11-05 15:50:02 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 15:50:02 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: Hello! 👋 I'm your Post-Discharge Care Assistant.
+
+I'm here to help you with your recovery after your hospital discharge.
+
+**What's your name?**...
+2025-11-05 15:50:51 - MedicalAssistant - INFO - USER INPUT: john smith
+2025-11-05 15:50:51 - MedicalAssistant - INFO - USER INPUT: john smith
+2025-11-05 15:50:53 - MedicalAssistant - ERROR - ❌ ERROR [NameExtraction]: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-11-05 15:50:53 - MedicalAssistant - ERROR - ❌ ERROR [ReceptionistProcessing]: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-11-05 15:54:59 - MedicalAssistant - INFO - USER INPUT: john smith
+2025-11-05 15:54:59 - MedicalAssistant - INFO - USER INPUT: john smith
+2025-11-05 15:54:59 - MedicalAssistant - ERROR - ❌ ERROR [NameExtraction]: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+2025-11-05 15:54:59 - MedicalAssistant - ERROR - ❌ ERROR [ReceptionistProcessing]: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]

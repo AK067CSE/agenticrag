@@ -1,0 +1,125 @@
+2025-11-05 19:35:18 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 19:35:18 - MedicalAssistant - INFO - Medical Assistant Logging System Initialized
+2025-11-05 19:35:18 - MedicalAssistant - INFO - Log file: C:\Users\abhik\Downloads\genaiagents\post_discharge_ai_assistant\fresh_system\logs\medical_assistant_20251105_193518.log
+2025-11-05 19:35:18 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 19:35:18 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Multi-Agent Orchestrator
+2025-11-05 19:35:18 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Receptionist Agent
+2025-11-05 19:35:18 - MedicalAssistant - INFO - ⚙️ SYSTEM: Patient database loaded with 25 records
+2025-11-05 19:35:18 - MedicalAssistant - INFO - [ReceptionistAgent] ACTION: Initialized
+2025-11-05 19:35:18 - MedicalAssistant - DEBUG - [ReceptionistAgent] DETAILS: {
+  "model": "gemini-2.0-flash-thinking-exp-01-21"
+}
+2025-11-05 19:35:18 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Clinical AI Agent
+2025-11-05 19:35:19 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 19:35:23 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 19:35:23 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 19:35:23 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: Initialized
+2025-11-05 19:35:23 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "model": "gemini-2.0-flash-thinking-exp-01-21",
+  "rag_enabled": true,
+  "web_search_enabled": true
+}
+2025-11-05 19:35:23 - MedicalAssistant - INFO - ⚙️ SYSTEM: Initializing Web Search Agent
+2025-11-05 19:35:25 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: Initialized
+2025-11-05 19:35:25 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "model": "llama-3.3-70b-versatile",
+  "search_engine": "DuckDuckGo"
+}
+2025-11-05 19:35:25 - MedicalAssistant - INFO - ⚙️ SYSTEM: Multi-Agent Orchestrator initialized
+2025-11-05 19:35:25 - MedicalAssistant - DEBUG -    Available agents: ['receptionist', 'clinical', 'web_search']
+2025-11-05 19:35:38 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 19:35:38 - MedicalAssistant - INFO - 🚀 NEW SESSION STARTED: session_2419224306960
+2025-11-05 19:35:38 - MedicalAssistant - INFO - ================================================================================
+2025-11-05 19:35:38 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: Hello! 👋 I'm your Post-Discharge Care Assistant.
+
+I'm here to help you with your recovery after your hospital discharge.
+
+**What's your name?**...
+2025-11-05 19:35:43 - MedicalAssistant - INFO - USER INPUT: hi
+2025-11-05 19:35:43 - MedicalAssistant - INFO - USER INPUT: hi
+2025-11-05 19:35:48 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: Hello! I'm your post-discharge care assistant. What's your name?...
+2025-11-05 19:36:01 - MedicalAssistant - INFO - USER INPUT: john smith
+2025-11-05 19:36:01 - MedicalAssistant - INFO - USER INPUT: john smith
+2025-11-05 19:36:02 - MedicalAssistant - INFO - 🔧 TOOL CALL: retrieve_patient_info
+2025-11-05 19:36:02 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 19:36:02 - MedicalAssistant - INFO - 🔧 TOOL CALL: get_patient_by_name
+2025-11-05 19:36:02 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 19:36:02 - MedicalAssistant - INFO - 🔧 TOOL CALL: get_patient_by_name
+2025-11-05 19:36:02 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 19:36:02 - MedicalAssistant - DEBUG -    Result: {
+  "status": "success",
+  "patient_found": true
+}
+2025-11-05 19:36:02 - MedicalAssistant - INFO - 🔧 TOOL CALL: retrieve_patient_info
+2025-11-05 19:36:02 - MedicalAssistant - DEBUG -    Parameters: {
+  "patient_name": "john smith"
+}
+2025-11-05 19:36:02 - MedicalAssistant - DEBUG -    Result: {
+  "status": "success",
+  "patient_found": true
+}
+2025-11-05 19:36:05 - MedicalAssistant - INFO - [ReceptionistAgent] RESPONSE: Hello John, I've reviewed your discharge report from January 15th, detailing your primary diagnosis of Chronic Kidney Disease Stage 3. How are you feeling today?...
+2025-11-05 19:36:23 - MedicalAssistant - INFO - USER INPUT: kidney stones
+2025-11-05 19:36:23 - MedicalAssistant - INFO - USER INPUT: kidney stones
+2025-11-05 19:36:23 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ReceptionistAgent → ClinicalAgent
+2025-11-05 19:36:23 - MedicalAssistant - INFO -    Reason: Medical query detected: kidney stones...
+2025-11-05 19:36:24 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ReceptionistAgent → ClinicalAgent
+2025-11-05 19:36:24 - MedicalAssistant - INFO -    Reason: Medical query: kidney stones...
+2025-11-05 19:36:24 - MedicalAssistant - INFO - USER INPUT: kidney stones
+2025-11-05 19:36:24 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 19:36:24 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "kidney stones",
+  "has_patient_context": true
+}
+2025-11-05 19:36:41 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 19:36:41 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "kidney stones",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 19:36:41 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 19:36:41 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: kidney stones...
+2025-11-05 19:36:41 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 19:36:41 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "kidney stones"
+}
+2025-11-05 19:36:41 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='kidney stones', Results=0
+2025-11-05 19:36:42 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='kidney stones', Results=0
+2025-11-05 19:36:42 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: SearchCompleted
+2025-11-05 19:36:42 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "query": "kidney stones",
+  "results_count": 0
+}
+2025-11-05 19:37:49 - MedicalAssistant - INFO - USER INPUT: nephrology
+2025-11-05 19:37:49 - MedicalAssistant - INFO - USER INPUT: nephrology
+2025-11-05 19:37:49 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: ProcessingMedicalQuery
+2025-11-05 19:37:49 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "nephrology",
+  "has_patient_context": true
+}
+2025-11-05 19:38:01 - MedicalAssistant - INFO - [ClinicalAgent] ACTION: RAGNoResults
+2025-11-05 19:38:01 - MedicalAssistant - DEBUG - [ClinicalAgent] DETAILS: {
+  "query": "nephrology",
+  "action": "falling_back_to_web_search"
+}
+2025-11-05 19:38:01 - MedicalAssistant - INFO - 🔄 AGENT HANDOFF: ClinicalAgent → WebSearchAgent
+2025-11-05 19:38:01 - MedicalAssistant - INFO -    Reason: No relevant information in knowledge base for: nephrology...
+2025-11-05 19:38:01 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: ProcessingQuery
+2025-11-05 19:38:01 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "question": "nephrology"
+}
+2025-11-05 19:38:01 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='nephrology', Results=0
+2025-11-05 19:38:02 - MedicalAssistant - INFO - 🌐 WEB SEARCH: Query='nephrology', Results=0
+2025-11-05 19:38:02 - MedicalAssistant - INFO - [WebSearchAgent] ACTION: SearchCompleted
+2025-11-05 19:38:02 - MedicalAssistant - DEBUG - [WebSearchAgent] DETAILS: {
+  "query": "nephrology",
+  "results_count": 0
+}
