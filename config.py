@@ -10,7 +10,7 @@ load_dotenv()
 
 # Base Paths
 BASE_DIR = Path(__file__).parent
-DATA_DIR = BASE_DIR.parent / "data"
+DATA_DIR = BASE_DIR / "data"
 LOGS_DIR = BASE_DIR / "logs"
 CHROMA_DIR = BASE_DIR / "chroma_db"
 
