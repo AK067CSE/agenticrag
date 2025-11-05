@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 ingest.py – one-time ingestion of the nephrology PDF
 Usage: python ingest.py
