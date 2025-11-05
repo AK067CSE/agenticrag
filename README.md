@@ -154,8 +154,8 @@ pip install -r requirements.txt
 
 ### Step 4: Verify Data Files
 Ensure these files exist in the parent `data/` directory:
-- `patients.json` - Patient database
-- `nephrology.pdf` - Reference textbook
+- `patients.json` - Patient database this is the dummy data that i have added
+- `nephrology.pdf` - Reference textbook your tema's reference book pdf 
 - make sure in a data folder keep the patients.json and the pdf 
 
 ---
