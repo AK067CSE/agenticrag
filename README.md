@@ -141,7 +141,7 @@ pip install -r requirements.txt
 ### Step 3: Configure API Keys
 1. Copy `.env.example` to `.env`:
    ```bash
-   copy .env.example .env
+   create env
    ```
 
 2. Edit `.env` and add your API keys:
@@ -150,14 +150,13 @@ pip install -r requirements.txt
    GROQ_API_KEY=your_actual_groq_api_key
    ```
 
-**Get API Keys:**
-- Google Gemini: https://makersuite.google.com/app/apikey
-- Groq: https://console.groq.com/keys
+
 
 ### Step 4: Verify Data Files
 Ensure these files exist in the parent `data/` directory:
 - `patients.json` - Patient database
 - `nephrology.pdf` - Reference textbook
+- make sure in a data folder keep the patients.json and the pdf 
 
 ---
 
