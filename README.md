@@ -130,13 +130,15 @@ Data Files (in parent directory):
 
 ### Step 1: Clone & Navigate
 ```bash
-cd post_discharge_ai_assistant/fresh_system
+cd agenticrag
 ```
 
 ### Step 2: Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
+python ingest_fast.py
+streamlit app.py
 
 ### Step 3: Configure API Keys
 1. Copy `.env.example` to `.env`:
