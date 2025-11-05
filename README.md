@@ -511,7 +511,8 @@ This is an educational project for internship evaluation purposes.
 - ChromaDB/FAISS for vector storage
 - Streamlit for rapid UI development
 - DuckDuckGo for web search
-
+-agentic ai rag(agno) fusion better langgraph agentic rag with 3-4 chunking strategies like token based paragraph based,agentic chunking ,structure based to check for accuracy as retriever depends on chunking
+-furtehr can be implemented for complex tasks using langgraph,crewai,autogen,agno
 ---
 
 **Built with ❤️ for DataSmith AI GenAI Internship**
