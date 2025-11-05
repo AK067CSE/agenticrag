@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Fast Ingestion Script - Optimized for Speed
 Uses smaller embedding model and pypdf for faster processing
